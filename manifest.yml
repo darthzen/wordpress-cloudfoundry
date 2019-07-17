@@ -1,0 +1,6 @@
+applications:
+- name: wordpress
+  path: .
+  random-route: true
+services:
+- wordpress-mysql-db
